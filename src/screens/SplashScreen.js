@@ -10,7 +10,7 @@ export default class SplashScreen extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      Actions.push("BookListScreen")    
+      Actions.push("TVShowListScreen")    
     }, 2000) 
   }
 
@@ -24,7 +24,7 @@ export default class SplashScreen extends Component {
           backgroundColor: 'white'
         }}>
           <Text style={{fontWeight:"900",fontSize:20}}>
-            Book App
+            TV Show List App
           </Text>
         </View>
       </View>

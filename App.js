@@ -27,8 +27,8 @@ import {
 
 //Screens
 import SplashScreen from './src/screens/SplashScreen'
-import BookListScreen from './src/screens/BookListScreen'
-import BookCartScreen from './src/screens/BookCartScreen';
+import TVShowDetailScreen from './src/screens/TVShowDetailScreen';
+import TVShowListScreen from './src/screens/TVShowListScreen';
 // import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen'
 
 export default class App extends Component {
@@ -63,15 +63,15 @@ export default class App extends Component {
                   initial
                 />
                  <Scene
-                  key='BookListScreen'
-                  component={BookListScreen}
-                  title='BookListScreen'
+                  key='TVShowListScreen'
+                  component={TVShowListScreen}
+                  title='TVShowListScreen'
                   hideNavBar
                 />
                 <Scene
-                  key='BookCartScreen'
-                  component={BookCartScreen}
-                  title='Cart'
+                  key='TVShowDetailScreen'
+                  component={TVShowDetailScreen}
+                  title='TVShowDetailScreen'
                   hideNavBar
                 /> 
               </Stack>
